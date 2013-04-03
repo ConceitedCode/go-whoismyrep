@@ -6,7 +6,7 @@ import (
 )
 
 var (
-	wimr     *WIMR
+	wimr *WIMR
 )
 
 func init() {
