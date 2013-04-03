@@ -15,7 +15,7 @@ func init() {
 }
 
 func TestRepByZip(t *testing.T) {
-	res, err := wimr.RepsByZip("60660")
+	res, err := wimr.RepsByZip("60660", "5601")
 	if err != nil {
 		t.Fatal(err)
 	}
